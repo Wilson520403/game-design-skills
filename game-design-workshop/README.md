@@ -3,7 +3,7 @@
 > An AI Agent skill implementing the **Playcentric Game Design** methodology from Tracy Fullerton's classic *Game Design Workshop*.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AI Agent Skill](https://img.shields.io/badge/AI-Agent%20Skill-blueviolet.svg)](https://github.com/Wilson520403/game-design-workshop-skill)
+[![AI Agent Skill](https://img.shields.io/badge/AI-Agent%20Skill-blueviolet.svg)](https://github.com/Wilson520403/game-design-skills)
 
 English | [简体中文](README_CN.md)
 
@@ -48,7 +48,7 @@ Install this skill directly via your AI Agent:
 Simply paste this instruction into your AI Agent chat:
 
 ```text
-Please install the Game Design Workshop skill into my global skills directory from https://github.com/Wilson520403/game-design-workshop-skill.git
+Please install the Game Design Workshop skill into my global skills directory from https://github.com/Wilson520403/game-design-skills.git
 ```
 
 ### Option 2: Command-Line Installation
@@ -56,7 +56,7 @@ Please install the Game Design Workshop skill into my global skills directory fr
 Clone directly into your AI skills directory:
 
 ```bash
-git clone https://github.com/Wilson520403/game-design-workshop-skill.git ~/.config/skills/game-design-workshop
+git clone https://github.com/Wilson520403/game-design-skills.git temp-skills && cp -r temp-skills/game-design-workshop ~/.config/skills/ && rm -rf temp-skills
 ```
 
 ---

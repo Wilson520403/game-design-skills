@@ -3,7 +3,7 @@
 > 基于 Tracy Fullerton 经典著作《游戏设计梦工厂》（*Game Design Workshop*）的 AI Agent 全流程「以玩为中心（Playcentric Design）」游戏设计导师 Skill。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AI Agent Skill](https://img.shields.io/badge/AI-Agent%20Skill-blueviolet.svg)](https://github.com/Wilson520403/game-design-workshop-skill)
+[![AI Agent Skill](https://img.shields.io/badge/AI-Agent%20Skill-blueviolet.svg)](https://github.com/Wilson520403/game-design-skills)
 
 [English](README.md) | 简体中文
 
@@ -48,13 +48,13 @@ game-design-workshop/
 在与 AI 对话时发送以下指令：
 
 ```text
-请帮我从 https://github.com/Wilson520403/game-design-workshop-skill.git 克隆并安装 Game Design Workshop skill 到我的全局 skills 目录。
+请帮我从 https://github.com/Wilson520403/game-design-skills.git 克隆并安装 Game Design Workshop skill 到我的全局 skills 目录。
 ```
 
 ### 方式 2：命令行克隆
 
 ```bash
-git clone https://github.com/Wilson520403/game-design-workshop-skill.git ~/.config/skills/game-design-workshop
+git clone https://github.com/Wilson520403/game-design-skills.git temp-skills && cp -r temp-skills/game-design-workshop ~/.config/skills/ && rm -rf temp-skills
 ```
 
 ---
